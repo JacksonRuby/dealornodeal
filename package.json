@@ -1,0 +1,29 @@
+{
+  "name": "dealornodeal",
+  "version": "1.0.0",
+  "description": "DEAL or NO DEAL?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "es6",
+    "problem",
+    "solving"
+  ],
+  "author": "Jackson Ruby",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "sourceMaps": true,
+    "retainLines": true
+  }
+}
